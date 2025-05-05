@@ -5,59 +5,113 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noelly Gomes | Pole Dance</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
       line-height: 1.6;
-      background-color: #fff;
+      background-color: #f9f9f9;
       color: #222;
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: justify;
+      color: #333;
     }
 
     .titulo {
-      font-size: 32px;
-      margin-bottom: 20px;
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 25px;
       font-weight: 600;
+      color: #2a2a2a;
+      text-align: center;
+      border-bottom: 2px solid #2a2a2a;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      color: #2a2a2a;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #4A7C59;
     }
 
     .galeria img {
       max-width: 100%;
       height: auto;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     .contato a {
       display: block;
-      margin: 5px 0;
-      color: #222;
+      margin: 8px 0;
+      color: #2a2a2a;
       text-decoration: none;
+      font-size: 18px;
+    }
+
+    .contato a:hover {
+      color: #4A7C59;
+    }
+
+    .border-top {
+      border-top: 2px solid #4A7C59;
+      padding-top: 20px;
+    }
+
+    .btn-cta {
+      text-align: center;
+      padding: 15px 30px;
+      background-color: #4A7C59;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 18px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn-cta:hover {
+      background-color: #3a5d43;
     }
   </style>
 </head>
 
 <body>
-  <section id="sobre" class="sobre">
+  <section id="sobre" class="sobre section">
     <div class="container">
       <h2 class="titulo">Quem sou</h2>
       <p><strong>Noelly Gomes</strong>, rondoniense vivendo a vida no Litoral Norte de SP. Iniciei minha jornada no pole dance em 2018 e, desde então, sigo em constante evolução entre quedas, fluidez e descobertas.</p>
       <p>Sou medalhista de prata no PoleART Brazil 2020 e competidora no campeonato internacional de pole sport (IPSF) nos anos de 2023 e 2024. Além da minha vivência como atleta, já preparei mais de 20 alunos para festivais e competições — entre eles, uma medalhista de prata no Aerodance 2022.</p>
       <p>Sou idealizadora do primeiro festival de pole dance no Litoral Norte de São Paulo, o <strong>Pole Show</strong>, evento que celebra todas as modalidades dessa arte em movimento. Já me apresentei em diversos eventos e cidades como São Paulo, Ubatuba, São Sebastião e Caçapava, levando a dança como forma de expressão e presença.</p>
-      <p>Ministrei workshops voltados para técnica e experiência: <strong>quedas (minha paixão), drops e flow</strong>, sempre com foco em autonomia, criatividade e progressão segura. Meu trabalho nasce do estudo constante e da troca — já estive em formações com nomes como Grazzy Brugner, Julio Peixoto, Carlos França, Serena Pires, Drea Costa, Roberta Martins, Cris Saez, Lígia Conconi e Anna Alvez.</p>
+      <p>Ministrei workshops voltados para técnica e experiência: <strong>quedas (minha paixão), drops e flow (minha paixão)</strong>, sempre com foco em autonomia, criatividade e progressão segura. Meu trabalho nasce do estudo constante e da troca — já estive em formações com nomes como Grazzy Brugner, Julio Peixoto, Carlos França, Serena Pires, Drea Costa, Roberta Martins, Cris Saez, Lígia Conconi e Anna Alvez.</p>
       <p>Hoje, ofereço aulas de <strong>Pole Fitness, Flow, Glamour, Flexibilidade e FlexSense</strong>, no formato <strong>presencial e online</strong>, com um olhar atento, artístico e técnico. Ensino aprendendo e aprendo ensinando. O pole não é só uma prática: é parte essencial da minha vida e da forma como me relaciono com o mundo.</p>
       <p>Mais do que ensinar movimentos, quero que cada pessoa se reconheça no processo, se permita experimentar e, acima de tudo, curta a jornada. Porque dançar também é se descobrir.</p>
     </div>
   </section>
 
-  <section id="aulas" class="aulas">
+  <section id="aulas" class="aulas section">
     <div class="container">
       <h2 class="titulo">Aulas</h2>
       <p>Ministro aulas presenciais em Caraguatatuba, em turmas ou de forma individual. As aulas em grupo seguem a proposta de cada modalidade (Flow, Glamour, Pole Fitness etc.), mas sempre respeitando os limites e o desenvolvimento pessoal de cada aluno.</p>
@@ -66,26 +120,27 @@
     </div>
   </section>
 
-  <section id="corpo-livre" class="corpo-livre">
+  <section id="corpo-livre" class="corpo-livre section">
     <div class="container">
       <h2 class="titulo">Corpo Livre – Curso de Capacitação</h2>
       <p>O <strong>Corpo Livre</strong> é um curso de capacitação em pole dance criado para quem deseja iniciar sua jornada como instrutor ou se especializar em metodologias e práticas mais profundas. Dividido em dois dias intensivos (10 horas cada), o curso mescla teoria e prática com uma abordagem progressiva, sensível e técnica.</p>
-      <p>Você aprenderá sobre construção de aulas, segurança, nomenclaturas próprias, didática, modalidades (como o pole giratório), e ainda poderá vivenciar experiências simbólicas de encerramento, além de checklists, avaliações práticas e teóricas, e apostila com identidade visual própria.</p>
+      <p>Você aprenderá sobre autonomia e liberdade no seu treino, construção de aulas, segurança, nomenclaturas próprias, didática, modalidades (como o pole giratório), e ainda poderá vivenciar experiências simbólicas de encerramento, além de checklists, avaliações práticas e teóricas, e apostila com identidade visual própria.</p>
       <p>Disponível em formato <strong>presencial</strong> (com turmas fechadas e certificação) e <strong>online</strong> com materiais complementares, vídeos e suporte remoto. Uma experiência transformadora para quem deseja ensinar com mais autonomia, criatividade e consciência.</p>
+      <a href="#contato" class="btn-cta">Inscreva-se</a>
     </div>
   </section>
 
-  <section id="galeria" class="galeria">
+  <section id="" class="">
     <div class="container">
-      <h2 class="titulo">Galeria</h2>
-      <p>Em breve você verá aqui imagens reais do meu trabalho, vivências e apresentações. Caso deseje enviar fotos agora, posso inserir diretamente para você.</p>
+      <h2 class="titulo"></h2>
+      <p></p>
     </div>
   </section>
 
-  <section id="contato" class="contato">
+  <section id="contato" class="contato section border-top">
     <div class="container">
       <h2 class="titulo">Entre em contato</h2>
-      <p>Vamos conversar? Me envie uma mensagem:</p>
+      <p>Me envie uma mensagem:</p>
       <a href="https://wa.me/5512981937585" target="_blank">WhatsApp: (12) 98193-7585</a>
       <a href="mailto:noelly.gomesl2@gmail.com">E-mail: noelly.gomesl2@gmail.com</a>
       <a href="https://instagram.com/no.gomes" target="_blank">Instagram: @no.gomes</a>
